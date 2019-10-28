@@ -1,0 +1,48 @@
+.Badges__hero {
+  width: 100%;
+  padding: 2rem 0;
+  background: url("../../../assets/images/stars.svg") #1b1b25;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: white;
+  > .Badges__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Badges__container {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+}
+
+.Badges_conf-logo {
+  margin-bottom: 2rem;
+}
+
+.Badges__buttons {
+  display: flex;
+  width: auto;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  button.button-3d {
+    border: 1px solid #7ccc3f;
+    -webkit-box-shadow: 0px 2px 0px #558C2B, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0px 2px 0px #558C2B, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 2px 0px #558C2B, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+      :hover{
+        border: 1px solid #007bff;
+        -webkit-box-shadow: 0px 2px 0px #005CBF, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+        inset 0px 0px 3px rgba(255, 255, 255, 0.5) !important;
+      -moz-box-shadow: 0px 2px 0px #005CBF, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+        inset 0px 0px 3px rgba(255, 255, 255, 0.5) !important;
+      box-shadow: 0px 2px 0px #005CBF, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+        inset 0px 0px 3px rgba(255, 255, 255, 0.5) !important;
+      }
+  }
+}
