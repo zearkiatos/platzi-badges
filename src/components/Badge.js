@@ -3,7 +3,7 @@ import confLogo from '../assets/images/badge-header.svg';
 import "./styles/badge/Badge.css";
 class Badge extends React.Component {
     render() {
-        return <div className="Badge">
+        return ( <div className="Badge">
             <div className="Badge__header">
                 <img src={confLogo} alt="Logo de la conferencia" />
             </div>
@@ -22,7 +22,7 @@ class Badge extends React.Component {
             <div className="Badge__footer">
                 #platziconf
             </div>
-        </div>;
+        </div>);
     }
 
 }
