@@ -448,6 +448,38 @@
       "jobTitle": "FullStack Developer",
       "twitter": "zearkiatos",
       "id": "LFRG36S"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Capriles",
+      "email": "caprilespe@gmail.com",
+      "jobTitle": "Software Architect",
+      "twitter": "caprilespe",
+      "id": "v7M5_wD"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "SAS",
+      "email": "caprilespe@outlook.com",
+      "jobTitle": "FrontEnd Developer",
+      "twitter": "pedro.capriles",
+      "id": "Sz5bix3"
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Rojas",
+      "email": "maria.rojas@gmail.com",
+      "jobTitle": "Accountant",
+      "twitter": "maria.rojas",
+      "id": "zVwaDpE"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "SAS",
+      "email": "caprilespe@outlook.com",
+      "jobTitle": "FullStack Developer",
+      "twitter": "zearkiatos",
+      "id": "9fmNoSQ"
     }
   ]
 }

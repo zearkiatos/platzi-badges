@@ -2,10 +2,13 @@ import React from 'react';
 import '../pages/styles/badgeNew/BadgeNew.css';
 import Badge from '../components/Badge';
 import BadgeForm from '../components/BadgeForm';
+import PageLoading from '../components/PageLoading';
 import header from '../assets/images/platziconf-logo.svg';
 import api from '../api';
 class BadgeNew extends React.Component {
     state = {
+        loading:false,
+        error: null,
         form: {
             firstName: '',
             lastName: '',
@@ -29,6 +32,7 @@ class BadgeNew extends React.Component {
         try {
             await api.badges.create(this.state.form);
             this.setState({loading:false});
+            this.props.history.push('/badges')
         }
         catch (error) {
             console.log(error);
@@ -36,6 +40,9 @@ class BadgeNew extends React.Component {
         }
     }
     render() {
+        if(this.state.loading){
+            return <PageLoading />;
+        }
         return (
             <React.Fragment>
                 <div className="BadgeNew__hero">
@@ -47,7 +54,7 @@ class BadgeNew extends React.Component {
                             <Badge firstName={this.state.form.firstName || 'FIRST_NAME'} lastName={this.state.form.lastName || 'LAST_NAME'} jobTitle={this.state.form.jobTitle || 'JOB_TITLE'} twitter={this.state.form.twitter || 'TWITTER'} email={this.state.form.email || 'EMAIL'}/>
                         </div>
                         <div className="col-6">
-                            <BadgeForm onChange={this.handleChange} formValues={this.state.form} onSubmit = {this.handleSubmit}  />
+                            <BadgeForm onChange={this.handleChange} formValues={this.state.form} onSubmit = {this.handleSubmit} error={this.state.error}  />
                         </div>
                     </div>
                 </div>
