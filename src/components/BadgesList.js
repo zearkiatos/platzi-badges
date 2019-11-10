@@ -22,7 +22,7 @@ class BadgesList extends React.Component {
                         const hash = md5(email);
                         return (
                             <li key={badge.id}>
-                                <Link className="text-reset text-decoration-none" to={`/badges/${badge.id}/edit`}>
+                                <Link className="text-reset text-decoration-none" to={`/badges/${badge.id}`}>
                                     <div className="container">
                                         <div className="badgeList-container row">
                                             <div className="col-1">
