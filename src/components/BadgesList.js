@@ -22,22 +22,24 @@ class BadgesList extends React.Component {
                         const hash = md5(email);
                         return (
                             <li key={badge.id}>
-                                <div className="container">
-                                    <div className="badgeList-container row">
-                                        <div className="col-1">
-                                            <img src={`https://www.gravatar.com/avatar/${hash}?d=identicon`} alt={badge.firstName+" "+badge.lastName} className="img-floud circle-avatar" />
-                                        </div>
-                                        <div className="col-11">
-                                            <h5 className="font-weight-bold">{badge.firstName} {badge.lastName}</h5>
-                                            <p>
-                                                <i className="fab fa-twitter twitter-color"></i> <span className="twitter-color">@{badge.twitter}</span>
-                                            </p>
-                                            <p>
-                                                {badge.jobTitle}
-                                            </p>
+                                <Link className="text-reset text-decoration-none" to={`/badges/${badge.id}/edit`}>
+                                    <div className="container">
+                                        <div className="badgeList-container row">
+                                            <div className="col-1">
+                                                <img src={`https://www.gravatar.com/avatar/${hash}?d=identicon`} alt={badge.firstName+" "+badge.lastName} className="img-floud circle-avatar" />
+                                            </div>
+                                            <div className="col-11">
+                                                <h5 className="font-weight-bold">{badge.firstName} {badge.lastName}</h5>
+                                                <p>
+                                                    <i className="fab fa-twitter twitter-color"></i> <span className="twitter-color">@{badge.twitter}</span>
+                                                </p>
+                                                <p>
+                                                    {badge.jobTitle}
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             </li>
                         );
                     })
