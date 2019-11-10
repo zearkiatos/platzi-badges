@@ -2,7 +2,7 @@
   "badges": [
     {
       "id": "2de30c42-9deb-40fc-a41f-05e62b5939a7",
-      "firstName": "Freda",
+      "firstName": "Fred",
       "lastName": "Grady",
       "email": "Leann_Berge@gmail.com",
       "jobTitle": "Legacy Brand Director",
@@ -440,6 +440,46 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Capriles",
+      "email": "caprilespe@outlook.com",
+      "jobTitle": "FullStack Developer",
+      "twitter": "zearkiatos",
+      "id": "LFRG36S"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Capriles",
+      "email": "caprilespe@gmail.com",
+      "jobTitle": "Software Architect",
+      "twitter": "caprilespe",
+      "id": "v7M5_wD"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Capriles",
+      "email": "caprilespe@outlook.com",
+      "jobTitle": "FrontEnd Developer",
+      "twitter": "pedro.capriles",
+      "id": "Sz5bix3"
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Rojas",
+      "email": "nayalirojas@gmail.com",
+      "jobTitle": "Accountant",
+      "twitter": "nayalirojas",
+      "id": "zVwaDpE"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "SAS",
+      "email": "caprilespe@outlook.com",
+      "jobTitle": "FullStack Developer",
+      "twitter": "zearkiatos",
+      "id": "9fmNoSQ"
     }
   ]
 }

@@ -13,5 +13,5 @@ CMD npm install -g create-react-app && \
     npm install && \
     sass src/components/styles/:src/components/styles --watch && \
     npm run start --port=5100 && \
-    npm install -g nodemon | ng serve --host 0.0.0.0 --port 5000
+    npm install -g nodemon | ng serve --host 0.0.0.0 --port 3001
 EXPOSE 5100
