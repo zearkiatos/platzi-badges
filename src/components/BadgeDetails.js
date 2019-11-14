@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import confLogo from '../assets/images/platziconf-logo.svg';
 import Badge from './Badge';
@@ -34,6 +35,7 @@ function BadgeDetails(props) {
                             </div>
                             <div>
                                 <button className="btn btn-danger danger-button-3d">Delete</button>
+                                {ReactDOM.createPortal(<h1>Hola, realmente no estoy aquí</h1>,document.getElementById("modal"))}
                             </div>
                         </div>
                     </div>
