@@ -10,15 +10,6 @@
       "avatarUrl": "https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon"
     },
     {
-      "id": "d00d3614-101a-44ca-b6c2-0be075aeed3d",
-      "firstName": "Major",
-      "lastName": "Rodriguez",
-      "email": "Ilene66@hotmail.com",
-      "jobTitle": "Human Research Architect",
-      "twitter": "MajorRodriguez61545",
-      "avatarUrl": "https://www.gravatar.com/avatar/d57a8be8cb9219609905da25d5f3e50a?d=identicon"
-    },
-    {
       "id": "63c03386-33a2-4512-9ac1-354ad7bec5e9",
       "firstName": "Daphney",
       "lastName": "Torphy",
@@ -458,28 +449,12 @@
       "id": "v7M5_wD"
     },
     {
-      "firstName": "Pedro",
-      "lastName": "Capriles",
-      "email": "caprilespe@outlook.com",
-      "jobTitle": "FrontEnd Developer",
-      "twitter": "pedro.capriles",
-      "id": "Sz5bix3"
-    },
-    {
       "firstName": "Maria",
       "lastName": "Rojas",
       "email": "nayalirojas@gmail.com",
       "jobTitle": "Accountant",
       "twitter": "nayalirojas",
       "id": "zVwaDpE"
-    },
-    {
-      "firstName": "Pedro",
-      "lastName": "SAS",
-      "email": "caprilespe@outlook.com",
-      "jobTitle": "FullStack Developer",
-      "twitter": "zearkiatos",
-      "id": "9fmNoSQ"
     }
   ]
 }
