@@ -1,0 +1,35 @@
+@import '../../../components/styles/Global.scss';
+.BadgeDetails__hero {
+    width: 100%;
+    padding: 2rem 0;
+    background: url('../../../assets/images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    &-attendant-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+  }
+  
+  .BadgeDetails__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+  }
+
+  .btn{
+    margin-bottom:5px;
+    min-width:128px;
+  }
+
+  .danger-button-3d{
+    border: 1px solid #dc3545 ;
+    -webkit-box-shadow: 0px 2px 0px #CD4040, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5) ;
+    -moz-box-shadow: 0px 2px 0px #CD4040, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5) ;
+    box-shadow: 0px 2px 0px #CD4040, 0px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+      inset 0px 0px 3px rgba(255, 255, 255, 0.5);
+  }

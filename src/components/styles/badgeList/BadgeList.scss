@@ -1,0 +1,23 @@
+@import '../Global.scss';
+
+.badgeList-container{
+    background-color:white;
+    padding:0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+    p{
+        margin:0;
+    }
+    img.circle-avatar{
+        border-radius: 50%;
+    }
+}
+
+.list-unstyled{
+    li{
+        margin-bottom:1em;
+    }
+}
+
+.twitter-color{
+    color:#1da1f2;
+}
